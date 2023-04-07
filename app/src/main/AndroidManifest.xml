@@ -12,6 +12,20 @@
         android:theme="@style/Theme.Waiting_App"
         tools:targetApi="31">
         <activity
+            android:name=".ContactAdapter"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".WaitingList"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".view.SetWaitingNumberActivity"
             android:exported="false">
             <meta-data

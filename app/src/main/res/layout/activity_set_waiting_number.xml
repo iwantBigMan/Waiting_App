@@ -30,17 +30,17 @@
             android:layout_marginTop="30dp"/>
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/name"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:gravity="center"
             android:hint="@string/name"
-            app:layout_constraintBottom_toTopOf="@+id/editText"
+            app:layout_constraintBottom_toTopOf="@+id/phoneNumber"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 
         <EditText
-            android:id="@+id/editText"
+            android:id="@+id/phoneNumber"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:hint="@string/phone_Number"
@@ -61,7 +61,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.491"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            android:onClick="@{() -> viewModelWaitingNumber.addContact((0, name.getText().toString(), phoneNumber.getText().toString()))}"/>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

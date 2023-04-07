@@ -5,5 +5,5 @@
     <string name="name">이름</string>
     <string name="phone_Number">핸드폰 번호</string>
     <string name="customer_information_registration">대기열 등록</string>
-    <string name="complete">완료</string>
+    <string name="complete">등록</string>
 </resources>
