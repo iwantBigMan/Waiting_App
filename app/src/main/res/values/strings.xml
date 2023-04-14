@@ -6,4 +6,5 @@
     <string name="phone_Number">핸드폰 번호</string>
     <string name="customer_information_registration">대기열 등록</string>
     <string name="complete">등록</string>
+    <string name="user_format">이름 : %s 연락처 : %d</string>
 </resources>
